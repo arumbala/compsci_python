@@ -1,0 +1,12 @@
+surfer_id,name,age,skill_level,surf_styles,joined_date
+1,Alex,32.0,advanced,"shortboard, fish, gun",2023-08-15
+2,Casey,28.0,beginner,"longboard, funboard",2023-08-03
+3,Drew,51.0,intermediate,"sup, longboard",2023-08-21
+4,Quinn,,beginner,,2023-09-02
+5,Avery,24.0,advanced,"shortboard, fish, bodyboard, gun",2023-08-28
+6,Blake,39.0,intermediate,"funboard, longboard, sup",2023-09-10
+7,Cameron,,beginner,"bodyboard",2023-09-05
+8,Dakota,42.0,beginner,"sup, funboard",2023-09-18
+9,Emerson,33.0,advanced,"gun, shortboard, fish",2023-08-12
+10,Finley,,intermediate,,2023-09-22
+11,Harper,27.0,beginner,"longboard, bodyboard, funboard",2023-09-14
