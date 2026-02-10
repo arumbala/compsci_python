@@ -6,17 +6,16 @@ Each time you can either climb 1 or 2 steps.
 """
 def climb_stairs(n: int) -> int:
     if n <= 2:
-        return n
+        return max(n, 0)
 
     prev1 = 1
     prev2 = 2
-    steps = 0
-    for i in range(3, n+1):
-        steps = prev1 + prev2
+    for i in range(2, n):
+        current = prev1 + prev2
         prev1 = prev2
-        prev2 = steps
+        prev2 = current
 
-    return steps
+    return prev2
 
 
 if __name__ == "__main__":
